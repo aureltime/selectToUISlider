@@ -197,7 +197,7 @@ jQuery.fn.selectToUISlider = function(settings){
 				var style = (inc == selectOptions.length-1 || inc === 0) ? 'style="display: none;"' : '' ;
 
 				var labelText = (options.labelSrc == 'text') ? groupOpts[i].text : groupOpts[i].value;
-				var groupLabel = (i === 0) ? '<span style="position:relative"><span class="ui-slider-label-group">'+group.label+'</span></span>' : '';
+				var groupLabel = (i === 0) ? '<span class="ui-slider-label-group">'+group.label+'</span>' : '';
 
 				if(opt.markers && opt.markers.length > 0){
 					jQuery.each(opt.markers,function(i,m){
